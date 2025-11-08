@@ -1,0 +1,7 @@
+streamlit
+python-docx
+pdfplumber
+PyPDF2
+nltk
+python-dotenv
+regex
