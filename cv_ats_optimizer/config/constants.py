@@ -1,18 +1,8 @@
-"""Centralized configuration constants for the ATS CV Optimizer project."""
+"""Application constants for ATS CV Optimizer Phase-1."""
 
 from __future__ import annotations
 
-# Consumers should import using:
-# from config.constants import (
-#     ALLOWED_EXTENSIONS,
-#     MAX_FILE_SIZE_MB,
-#     APPROVED_ACTION_VERBS,
-#     BANNED_TERMS,
-#     STOPWORDS,
-#     CONFIGURATION_RULES,
-# )
-
-ALLOWED_EXTENSIONS = ["pdf", "docx", "txt"]
+ALLOWED_EXTENSIONS = {".pdf", ".docx", ".txt"}
 MAX_FILE_SIZE_MB = 5
 
 APPROVED_ACTION_VERBS = [

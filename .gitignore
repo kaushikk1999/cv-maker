@@ -1,5 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
 .venv/
 .env
-__pycache__/
-*.pyc
+
+# OS
 .DS_Store
+
+# Streamlit cache
+.streamlit/
+
+# pytest
+.pytest_cache/
